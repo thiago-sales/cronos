@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className='max-w-nd flex flex-col items-center py-8'>
-      <h1 className='text-2xl font-semibold'>Cronômetro</h1>
+      <h1 className='text-2xl font-semibold'>Cronômetro-Thiago Sales</h1>
       <div className='text-xl font-semibold py-4'>
         <spam>{("0" + Math.floor((time / 60000) % 60)).slice(-2)}:</spam>
         <spam>{("0" + Math.floor((time / 1000) % 60)).slice(-2)}:</spam>
