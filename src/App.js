@@ -35,6 +35,7 @@ function App() {
         <button 
           className='border rounded-lg py-1 px-3.5 bg-blue-300 font-semibold'
           onClick={() => {setRunning(false)}}
+      
           >
             Parar
             </button>) : (
